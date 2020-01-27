@@ -1,0 +1,6 @@
+@use 'custom';
+@use '~bootstrap/scss/bootstrap';
+body {
+  color: red; }
+
+/*# sourceMappingURL=style.css.map */

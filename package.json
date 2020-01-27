@@ -1,0 +1,36 @@
+{
+  "name": "vanillajslearning",
+  "version": "1.0.0",
+  "description": "A simple app to learn imports with js",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --open --config webpack.config.js",
+    "postbuild": "rimraf build/**/*.map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguin467/learningImports.git"
+  },
+  "author": "aguin467",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aguin467/learningImports/issues"
+  },
+  "homepage": "https://github.com/aguin467/learningImports#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "eslint": "^6.8.0",
+    "postcss-cli": "^7.1.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

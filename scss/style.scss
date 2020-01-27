@@ -1,0 +1,8 @@
+@use 'custom';
+@use '~bootstrap/scss/bootstrap';
+
+$body-color: red;
+
+body {
+  color: $body-color;
+}
