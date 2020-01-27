@@ -1,1 +1,32 @@
 language: node_js
+
+node_js:
+  - "13.7.0"
+  
+os: 
+- linux
+
+env:
+  - ARCHITECTURE="$TRAVIS_OS_NAME"
+  
+before_script:
+  - npm i -S -D 
+    @babel/core: "^7.2.2",
+    @babel/preset-env: "^7.3.1",
+    babel-loader: "^8.0.5",
+    eslint: "^6.8.0",
+    postcss-cli: "^7.1.0",
+    postcss-loader: "^3.0.0",
+    sass-loader: "^8.0.2",
+    webpack: "^4.29.0",
+    webpack-cli: "^3.2.1",
+    webpack-dev-server: "^3.1.14"
+  
+install: 
+- npm i
+
+script:
+ - npm install --build-from-source
+ - cd $TRAVIS_BUILD_DIR
+
+ 
