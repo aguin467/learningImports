@@ -1,5 +1,5 @@
 # Todo List  
-![Travis Status](https://img.shields.io/github/license/aguin467/learningImports) ![Dependencies](https://img.shields.io/david/dev/aguin467/learningImports)
+![Travis Status](https://travis-ci.org/aguin467/learningImports.svg?branch=master) ![Dependencies](https://img.shields.io/david/dev/aguin467/learningImports) 
 
 ## Already Done
 
