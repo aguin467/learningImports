@@ -1,10 +1,11 @@
-# Todo List  
-![Travis Status](https://travis-ci.org/aguin467/learningImports.svg?branch=master) ![Dependencies](https://img.shields.io/david/dev/aguin467/learningImports) 
+# Todo List
+![Travis Status](https://travis-ci.org/aguin467/learningImports.svg?branch=master) ![Dependencies](https://img.shields.io/david/dev/aguin467/learningImports)
 
 ## Already Done
 
 - [x] webpack config
 - [x] webpack and package.json entry point
+- [x] Updated HTML5 code
 
 ### Need Todo
 
