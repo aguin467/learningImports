@@ -1,6 +1,3 @@
-//console.log('Hello Aiden!');
+import {name, age} from '../js/index';
 
-var name = 'Aiden';
-var age = 27;
-
-let x = 0; // Add webpack
+console.log(name, + ' ' + age);

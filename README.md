@@ -12,3 +12,7 @@
 - [ ] Building website front end with HTML5, CSS3 and Javscript
 - [ ] Build back end
 - [ ] Fix eslint linebreak style globally
+
+### To run import/exports
+
+*node --experimental-modules --es-module-specifier-resolution=node filename.js*

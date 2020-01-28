@@ -1,6 +1,20 @@
-@use 'custom';
-@use '~bootstrap/scss/bootstrap';
-body {
-  color: red; }
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
+h1 {
+  font-family: monospace;
+}
+
+body, uo {
+  font-family: "Fira Code", monospace;
+}
+
+code {
+  font-family: "Fira Code", monospace;
+}
+
+@supports (font-variation-settings: normal) {
+  code {
+    font-family: "Fira Code VF", monospace;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

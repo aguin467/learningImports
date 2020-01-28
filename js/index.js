@@ -1,11 +1,4 @@
-/* eslint-disable linebreak-style */
-console.log('hello world!');
-
-console.log('hello world');
-
-let x = 0;
 let name = 'Aiden';
+let age = 27;
 
-if(x <= name.length) {
-	console.log(name);
-}
+export {name, age};
