@@ -9,6 +9,9 @@ module.exports = {
 		'Atomics': 'readonly',
 		'SharedArrayBuffer': 'readonly'
 	},
+	"plugins": [
+		"eslint-plugins-babel",
+	],
 	'parserOptions': {
 		'ecmaVersion': 2018,
 		'sourceType': 'module'
